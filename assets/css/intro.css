@@ -1,0 +1,11 @@
+.goHome-img {
+  display: flex;
+  margin-bottom: 40px;
+}
+.goHome-img1 img{
+    width: 267px;
+    height: 200px;
+}
+#img-2{
+    margin: 12px 0;
+}

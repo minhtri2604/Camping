@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Viet Valky bold";
+  src: url("../fonts/MTD\ Valky\ Bold.otf");
+}
+@font-face {
+  font-family: "Viet Valky light";
+  src: url("../fonts/MTD\ Valky\ Light.otf");
+}
+@font-face {
+  font-family: "Viet Valky regular";
+  src: url("../fonts/MTD\ Valky\ Regular.otf");
+}
+@font-face {
+  font-family: "Viet Valky Semibold";
+  src: url("../fonts/MTD\ Valky\ Semibold.otf");
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 77px;
+  background-color: #00000057;
+  z-index: 100;
+}
+.header-list {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.header-item {
+  margin: 0 12px;
+}
+.header-item a,
+.header-item1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+#header-item-first {
+  color: #ff224d;
+  display: block;
+  border-bottom: 2px solid #ff224d;
+}
+.header-call {
+  width: 155px;
+  height: 51px;
+  border: 1px solid #ff224d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-item1:hover a {
+  text-decoration: none;
+}
+.header-item:hover a {
+  text-decoration: none;
+  color: #ff224d;
+  display: block;
+  border-bottom: 2px solid #ff224d;
+}
+.header-call a {
+  font-size: 16px;
+  border-radius: 1px;
+  text-decoration: none;
+}
+.header-call:hover {
+  text-decoration: none;
+  background-color: #ff224d;
+
+  border-radius: 2px;
+}
+.header-call:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+/* slider */
+#intro {
+  height: 470px;
+  background-image: url("../images/intro1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  /* Optional: Set the background color if the image is smaller than the container */
+  background-color: #f0f0f0;
+  position: relative;
+  z-index: 1;
+  margin-top: -77px;
+}
+#images{
+  height: 470px;
+  background-image: url("../images/thuvienanh-main.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  /* Optional: Set the background color if the image is smaller than the container */
+  background-color: #f0f0f0;
+  position: relative;
+  z-index: 1;
+  margin-top: -77px;
+}
+#contact {
+  height: 400px; /* 100% of the viewport height */
+  background-image: url("../images/contact.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Optional: Set the background color if the image is smaller than the container */
+  background-color: #f0f0f0;
+  position: relative;
+  z-index: 1;
+  margin-top: -77px;
+}
+.slider {
+  height: 100vh; /* 100% of the viewport height */
+  background-image: url("../images/slider.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Optional: Set the background color if the image is smaller than the container */
+  background-color: #f0f0f0;
+  position: relative;
+  z-index: 1;
+  margin-top: -77px;
+}
+.content {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding as needed */
+  position: absolute;
+  top: 30%;
+  color: white;
+  left: 10%;
+  text-align: center;
+}
+
+.slider-name {
+  font-size: 65px;
+  font-weight: 800;
+}
+.slider-about {
+  font-size: 75px;
+  font-weight: 900;
+}
+.slider-btn {
+  background-color: #ff224d;
+  color: #ffffff;
+  border-color: #ffffff;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 12px 40px 13px 40px;
+  margin: 0px 10px 0px 10px;
+  border-style: none;
+  border-radius: 2px 2px 2px 2px;
+  opacity: 1;
+}
+.slider-btn:hover {
+  background-color: red;
+}
+
+/* content */
+.goHome {
+  padding: 0 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.goHome-left,
+.goHome-right {
+  flex: 1;
+}
+.left-heading {
+  color: #222222;
+  font-size: 84px;
+  font-weight: 500;
+}
+.goHome-left p {
+  color: #444444;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+}
+#left-more {
+  margin: 0;
+}
+#left-more:hover a {
+  color: white;
+}
+#left-footer {
+  color: #ff224d;
+}
+.right-img {
+  display: flex;
+  flex-direction: row;
+}
+.right-img1,
+.right-img2 {
+  padding: 18px;
+}
+.service {
+  background-color: #f5f5f5;
+}
+.service-sub {
+  text-align: center;
+  padding: 100px 0;
+}
+#service-name {
+  color: #222222;
+  font-family: "Cormorant Garamond", Sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+}
+#service-about {
+  color: #54595f;
+  font-size: 52px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#card {
+  margin: 0 4px;
+}
+.card-text {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4d4d4d;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.service-footer {
+  position: relative;
+  margin-top: 12px;
+}
+.about {
+  background-image: url("../images/anh9.jpeg");
+  height: 500px; /* 100% of the viewport height */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Optional: Set the background color if the image is smaller than the container */
+  background-color: #f0f0f0;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #252525;
+  opacity: 0.55;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.about-content {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  margin: 50px 160px;
+  line-height: 2;
+}
+.about-header {
+  font-size: 52px;
+}
+.about-text {
+  font-size: 15px;
+}
+.contact-sub {
+  margin: 80px 0;
+}
+
+.contact-head {
+  display: flex;
+}
+.contact-head1,
+.contact-head2 {
+  flex: 1;
+}
+.contact-head1 {
+  line-height: 2;
+}
+.contact-head2 {
+  display: flex;
+  flex-direction: column;
+}
+.contact-money {
+  font-size: 14px;
+  color: #484848;
+  line-height: 1;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-item {
+  font-family: "Viet Valky regular";
+}
+#ml {
+  margin-left: 12px;
+}
+
+.contact-head2 {
+}
+.lable-name {
+  font-family: "Viet Valky regular";
+  font-size: 16px;
+  color: #000000;
+}
+.contact-head2 input {
+  width: 100%;
+  height: 43px;
+  padding: 4px;
+  outline: none;
+}
+#noidung {
+  height: 110px;
+}
+#mt {
+  margin-top: 16px;
+}
+
+#btn-send {
+  margin-top: 12px;
+  border: none;
+  width: 62px;
+  height: 38px;
+  background-color: #409eff;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.contact-below {
+  margin-top: 12px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 163px;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  color: #ffffff;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* introl */
+.goHome-left span {
+  display: block;
+  color: #444444;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 3;
+}

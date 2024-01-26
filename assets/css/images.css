@@ -1,0 +1,47 @@
+#images1{
+    width: 272px;
+    height: 204px;
+}
+#btn-images{
+    position: relative;
+    left: 45%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(96, 91, 229);
+    border-color: rgb(232, 232, 232);
+    transition-duration: 0.1s;
+    border-style: none;
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+.hoabac{
+    display: flex;
+}
+.hoabac-left{
+    width: 30%;
+}
+#hoabac-head{
+    color: rgb(74, 74, 74);
+    font-size: 60px;
+    font-weight: 600;
+}
+#hoabac-by{
+    color: #7a7a7a;
+}
+#goHome-img1{
+    margin-right: 12px;
+}
+.hoabac-right{
+    width: 70%;
+    display: flex;
+
+}
+
+.right-img-sub{
+    flex: 1;
+}
+.right-img-sub img{
+    width: 100%;
+    padding: 4px;
+}
